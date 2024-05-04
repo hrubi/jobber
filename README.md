@@ -1,6 +1,12 @@
 # Jobber
 
-**TODO: Add description**
+Jobber is a tiny REST service. It accepts a job as JSON, sorts its tasks
+according to their dependencies. It responds either with a JSON or a shell
+script in plain text.
+
+## Testing
+
+Run `mix test`.
 
 ## Installation
 
